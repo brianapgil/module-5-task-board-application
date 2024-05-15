@@ -1,0 +1,44 @@
+body {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+}
+
+.swim-lanes {
+  min-height: 60vh;
+}
+
+.task-card {
+  margin: 0 auto;
+}
+
+.task-card:hover {
+  cursor: grab;
+}
+
+#taskTitle {
+  display: flex;
+  margin-bottom: 5px;
+}
+
+#taskTitleInput {
+  margin-bottom: 10px;
+}
+
+#taskDueDate {
+  display: flex;
+  margin-bottom: 5px;
+}
+
+#taskDueDateInput {
+  margin-bottom: 10px;
+}
+
+#taskDescription {
+  display: flex;
+  margin-bottom: 5px;
+}
+
+#taskDescriptionInput {
+  margin-bottom: 10px;
+  width: 100%;
+}
